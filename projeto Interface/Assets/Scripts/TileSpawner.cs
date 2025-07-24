@@ -24,7 +24,7 @@ public class TileSpawner : MonoBehaviour
 
         foreach (Note nota in new List<Note>(notes))
         {
-            if (tempoMusica >= nota.tempo - 2f) // Gera 2 segundos antes
+            if (tempoMusica >= nota.tempo - 2f)
             {
                 Vector3 posicaoInicial = lanes[nota.lane].position + new Vector3(0, 10, 0);
                 Instantiate(tilePrefab, posicaoInicial, Quaternion.identity);
