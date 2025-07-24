@@ -284,7 +284,7 @@ MonoBehaviour:
   - {fileID: 1279419660}
   - {fileID: 862558415}
   musica: {fileID: 68454617}
-  levelData: {fileID: 0}
+  levelData: {fileID: 4900000, guid: a86a8f91625686e408b729ff0b8eb5f7, type: 3}
 --- !u!4 &502061636
 Transform:
   m_ObjectHideFlags: 0
@@ -406,7 +406,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
