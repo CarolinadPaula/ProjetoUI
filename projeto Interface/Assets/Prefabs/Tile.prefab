@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 7975259487771146132}
   - component: {fileID: 2735505211001920871}
   - component: {fileID: 9102837730715585510}
+  - component: {fileID: -3969370387456626490}
+  - component: {fileID: -878386167725719449}
   m_Layer: 5
   m_Name: Tile
   m_TagString: Untagged
@@ -67,7 +69,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 7399533318584292489, guid: a963d65e9ea94ce41b5623b346683010, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -150,3 +152,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-3969370387456626490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009953203116510999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6bec2bf77cd8344a323c2d13c9d28e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 5
+--- !u!114 &-878386167725719449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009953203116510999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f139d55ba4c2a2747b8b6c161e1e36d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
